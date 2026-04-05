@@ -11,7 +11,7 @@ Source: https://github.com/Shehrhass/Causal-Analysis/main/MasterData_14_to_25.cs
 Source: Match-level data is from football-data.co.uk, covering the top-tier leagues of Germany, France, and England over a 10-year panel.
 
 
-## ✨ Features
+## Features
 * **Staggered Difference-in-Differences (DiD):** Estimates the causal effect of VAR adoption using home-away team and season fixed effects.
 * **Event Study Analysis:** Visualizes pre-treatment and post-treatment trends to validate the parallel-trends assumption.
 * **Heterogeneity Testing:** Breaks down the VAR effect by individual league to analyze the impact of league-specific refereeing cultures.
