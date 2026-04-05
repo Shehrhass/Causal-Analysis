@@ -6,8 +6,8 @@ An econometric analysis investigating whether the introduction of the Video Assi
 Using match-level data from 11,475 games across the Bundesliga, Ligue 1, and Premier League (2014–2025), this project exploits uses the staggered adoption of VAR as a natural experiment using a Two-Way Fixed Effects (TWFE) Difference-in-Differences (DiD) design.
 
 ## Dataset
-Match-level data for all league matches across the Bundesliga, Ligue 1, and Premier League from 2014 to 20225, yielding 11,475 observations.
-Source: https://github.com/Shehrhass/Causal-Analysis/blob/main/MasterData_14_to_25.csv
+Match-level data for all league matches across the Bundesliga, Ligue 1, and Premier League from 2014 to 2025, yielding 11,475 observations.
+Source: https://github.com/Shehrhass/Causal-Analysis/main/MasterData_14_to_25.csv
 Source: Match-level data is from football-data.co.uk, covering the top-tier leagues of Germany, France, and England over a 10-year panel.
 
 
@@ -25,11 +25,9 @@ Source: Match-level data is from football-data.co.uk, covering the top-tier leag
 5. Run all cells top to bottom
 
 ## Results
------------------------------------------------------------------------------|
-Model                 |  βVAR	|   SE	| p-value |    N	 | Controls | FE |
------------------------------------------------------------------------------|
-TWFE - VAR only       | 0.008	| 0.025	|  0.735  |  11,475  |  No	    | Yes|
-TWFE - VAR + controls | 0.014	| 0.024 |  0.543  |  11,475	 |  Yes	    | Yes|
-+/- 3-season window	  | 0.014	| 0.024	|  0.578  |	 7,360	 |  Yes	    | Yes|
-Poisson MLE	          |   0.088	| 0.139	|  0.527  |  11,475	 |  Yes	    | Yes|
------------------------------------------------------------------------------|
+| Model                 | βVAR  | SE    | p-value | N      | Controls | FE  |
+| :---                  | :---  | :---  | :---    | :---   | :---     | :---|
+| TWFE - VAR only       | 0.008 | 0.025 | 0.735   | 11,475 | No       | Yes |
+| TWFE - VAR + controls | 0.014 | 0.024 | 0.543   | 11,475 | Yes      | Yes |
+| +/- 3-season window   | 0.014 | 0.024 | 0.578   | 7,360  | Yes      | Yes |
+| Poisson MLE           | 0.088 | 0.139 | 0.527   | 11,475 | Yes      | Yes |
